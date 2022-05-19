@@ -25,10 +25,10 @@
 
     &__img {
       max-width: 30px;
-      filter: invert(97%) sepia(10%) saturate(6174%) hue-rotate(309deg)
-        brightness(98%) contrast(93%);
+      filter: var(--accented-color-filter);
       animation: 0.5s arrow infinite alternate ease-in;
       position: relative;
+
       img {
         object-fit: contain;
       }

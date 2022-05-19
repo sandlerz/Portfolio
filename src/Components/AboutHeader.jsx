@@ -1,4 +1,5 @@
 import ArrowIcon from '../images/right-arrow.png'
+import { NavLink } from 'react-router-dom'
 
 export default function header() {
   return (
@@ -7,19 +8,19 @@ export default function header() {
       <nav>
         <ul className="AboutHeader__nav-container">
           <li>
-            <a href="#">Portfolio</a>
+            <NavLink to="#">Portfolio</NavLink>
           </li>
           <li>
-            <a href="#">Skills</a>
+            <NavLink to="#">Skills</NavLink>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
           <li>
-            <a href="#">About</a>
+            <NavLink to="#">About</NavLink>
           </li>
           <li>
-            <a href="#">Social</a>
+            <NavLink to="#">Social</NavLink>
           </li>
         </ul>
       </nav>

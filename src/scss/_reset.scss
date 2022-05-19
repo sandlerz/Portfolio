@@ -18,6 +18,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: var(--main-color);
   display: flex;
+  justify-content: center;
 }
 
 img,
@@ -43,6 +44,11 @@ h5,
 h6 {
   overflow-wrap: break-word;
   color: var(--text-color-1);
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: var(--font-weight-bold);
 }
 
 li {

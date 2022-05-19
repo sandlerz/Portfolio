@@ -4,6 +4,9 @@
 
   --main-color: #1a1b21;
   --accented-color: #f3b067;
+  --accented-color-filter: invert(97%) sepia(10%) saturate(6174%)
+    hue-rotate(309deg) brightness(98%) contrast(93%);
+  --element-color: #161619;
 
   --font-weight-regular: 400;
   --font-weight-medium: 500;
