@@ -1,0 +1,45 @@
+.AboutHeader {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 100px;
+
+  &__logo {
+  }
+
+  &__nav-container {
+    display: flex;
+    gap: 35px;
+  }
+
+  &__talk {
+    font-weight: var(--font-weight-bold);
+    display: flex;
+    gap: 15px;
+
+    &__text {
+      border-bottom: 4px solid var(--accented-color);
+    }
+
+    &__img {
+      max-width: 30px;
+      filter: invert(97%) sepia(10%) saturate(6174%) hue-rotate(309deg)
+        brightness(98%) contrast(93%);
+      animation: 0.5s arrow infinite alternate ease-in;
+      position: relative;
+      img {
+        object-fit: contain;
+      }
+      @keyframes arrow {
+        from {
+          left: 0;
+        }
+        to {
+          left: 3px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.AboutName {
+  color: var(--text-color-2);
+  &__welcome {
+    display: block;
+    font-size: 32px;
+    font-weight: var(--font-weight-medium);
+    margin-bottom: 35px;
+  }
+  &__name {
+    font-size: 64px;
+    line-height: 50px;
+  }
+  &__software {
+    font-weight: var(--font-weight-semiBold);
+    font-size: 40px;
+  }
+}

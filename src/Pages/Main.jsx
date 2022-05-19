@@ -1,8 +1,8 @@
-import About from '../../containers/About'
+import About from '../Containers/About'
 
 export default function Main() {
   return (
-    <main>
+    <main className="MainPage">
       <About />
     </main>
   )
