@@ -31,9 +31,13 @@ svg {
 
 input,
 button,
-textarea,
-select {
+textarea {
   font: inherit;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 p,
