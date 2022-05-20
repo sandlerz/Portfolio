@@ -1,9 +1,15 @@
 import angleBracketIcon from '../images/angle-bracket.png'
 
-export default function SkillsContainer({ img }) {
-  const images = img.map((image, index) => (
-    <div key={index} className="Skills__container__inner-container__body__item">
-      {/* <img src={''} alt="" /> */}
+export default function SkillsContainer({ imgArray }) {
+  const images = imgArray.map(skill => (
+    <div
+      key={skill[1]}
+      className="Skills__container__inner-container__body__item"
+    >
+      <img src={skill[0]} alt="" />
+      <span className="Skills__container__inner-container__body__item__name">
+        {skill[1]}
+      </span>
     </div>
   ))
   return (

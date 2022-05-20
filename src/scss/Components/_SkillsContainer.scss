@@ -20,8 +20,28 @@
     &__item {
       width: 100px;
       height: 100px;
-      border-radius: 25px;
-      background-color: white;
+      transition: transform 0.3s;
+      cursor: pointer;
+      text-align: center;
+
+      img {
+        object-fit: contain;
+      }
+
+      &__name {
+        opacity: 0;
+      }
+
+      &:hover {
+        border-radius: 10px;
+        background-color: var(--gray);
+        transform: scale(1.5);
+      }
+
+      &:hover &__name {
+        opacity: 1;
+        text-decoration: underline;
+      }
     }
   }
 }
