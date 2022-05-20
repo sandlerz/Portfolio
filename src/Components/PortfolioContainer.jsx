@@ -1,5 +1,4 @@
 export default function PortfolioContainer() {
-  console.log([...Array(1000)])
   const emptyArray = [...Array(6).keys()].map(project => (
     <div className="PortfolioContainer__item" key={project}>
       <div className="PortfolioContainer__item__img">
