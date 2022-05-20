@@ -8,19 +8,16 @@ export default function header() {
       <nav>
         <ul className="AboutHeader__nav-container">
           <li>
-            <NavLink to="#">Portfolio</NavLink>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li>
-            <NavLink to="#">Skills</NavLink>
+            <a href="#skills">Skills</a>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <a href="#contact">Contact</a>
           </li>
           <li>
-            <NavLink to="#">About</NavLink>
-          </li>
-          <li>
-            <NavLink to="#">Social</NavLink>
+            <a href="#findmeon">Social</a>
           </li>
         </ul>
       </nav>

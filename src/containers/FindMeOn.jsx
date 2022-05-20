@@ -5,7 +5,7 @@ import GITHUB from '../images/Network/github.svg'
 
 export default function FindMeOn() {
   return (
-    <footer className="FindMeOn">
+    <footer className="FindMeOn" id="findmeon">
       <header className="FindMeOn__header">
         <h2>Find me on</h2>
       </header>

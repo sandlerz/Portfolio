@@ -12,6 +12,7 @@ import GITHUB from '../images/Skills/github.svg'
 import VSCODE from '../images/Skills/vscode.svg'
 import BASH from '../images/Skills/bash.svg'
 import FIGMA from '../images/Skills/figma.svg'
+import EMOTION from '../images/Skills/emotion.png'
 
 const arraySkillPrimary = [
   [HTML5, 'HTML5'],
@@ -25,6 +26,7 @@ const arraySkillSecondary = [
   [SASS, 'SASS'],
   [BOOTSTRAP, 'BootsTrap'],
   [WEBPACK, 'Webpack'],
+  [EMOTION, 'Emotion'],
 ]
 
 const arraySkillThird = [
@@ -37,7 +39,7 @@ const arraySkillThird = [
 
 export default function Skills() {
   return (
-    <section className="Skills">
+    <section className="Skills" id="skills">
       <header className="Skills__header">
         <h2 className="Skills__header__text">Skills</h2>
       </header>
