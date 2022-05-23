@@ -1,4 +1,5 @@
 import ContactForm from '../Components/ContactForm'
+import ContactInfo from '../Components/ContactInfo'
 
 export default function Contact() {
   return (
@@ -7,6 +8,8 @@ export default function Contact() {
         <h2>Contact</h2>
       </header>
       <div className="Contact__body">
+        <ContactInfo />
+        <div className="Contact__body__line"></div>
         <ContactForm />
       </div>
     </section>

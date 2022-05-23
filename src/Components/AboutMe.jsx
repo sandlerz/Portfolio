@@ -1,15 +1,13 @@
 export default function AboutMe() {
   return (
-    <div className="AboutMe">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi laboriosam
-      voluptates quas, ipsa sapiente quaerat ea veritatis odio, perferendis
-      expedita illum odit nobis iusto, accusamus et harum voluptatem eos.
-      Fugiat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit a
-      velit eligendi, voluptates non recusandae nam iure, unde fuga nobis
-      laborum maiores neque libero ullam cum similique ipsam possimus tenetur!
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit quod
-      adipisci quis voluptatum soluta repellat maiores optio. Sint enim magni
-      non dolore delectus error cumque, quis laboriosam quibusdam quod ipsa.
-    </div>
+    <p className="AboutMe">
+      I am an optimistic and respectful <br /> person who is interested in
+      learning <br /> and continuous improvement that <br /> allow me to develop
+      both personally and <br /> professionally to contribute my knowledge in
+      <br /> the solution of the specific needs of the areas in <br /> which I
+      work. I am always looking for the generation of value-driven by my
+      vocation of service in the company of the work teams in which it
+      participates.
+    </p>
   )
 }

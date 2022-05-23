@@ -1,23 +1,27 @@
 .AboutHeader {
-  display: flex;
+  display: grid;
   width: 100%;
-  justify-content: space-between;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   font-size: 24px;
   margin-bottom: 100px;
 
   &__logo {
+    opacity: 0;
   }
 
   &__nav-container {
     display: flex;
+    justify-content: center;
     gap: 35px;
   }
 
   &__talk {
     font-weight: var(--font-weight-bold);
     display: flex;
+    justify-content: flex-end;
     gap: 15px;
+    opacity: 0;
 
     &__text {
       border-bottom: 4px solid var(--accented-color);

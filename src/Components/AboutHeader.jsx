@@ -1,5 +1,4 @@
 import ArrowIcon from '../images/right-arrow.png'
-import { NavLink } from 'react-router-dom'
 
 export default function header() {
   return (
@@ -17,7 +16,7 @@ export default function header() {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <a href="#findmeon">Social</a>
+            <a href="#findMeOn">Social</a>
           </li>
         </ul>
       </nav>
