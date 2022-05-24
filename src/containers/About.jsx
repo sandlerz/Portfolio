@@ -1,8 +1,8 @@
-import AboutCircle from '../Components/AboutCircle'
-import AboutHeader from '../Components/AboutHeader'
-import AboutMe from '../Components/AboutMe'
-import AboutName from '../Components/AboutName'
-import AboutStatistics from '../Components/AboutStatistics'
+import AboutCircle from '../components/AboutCircle'
+import AboutHeader from '../components/AboutHeader'
+import AboutMe from '../components/AboutMe'
+import AboutName from '../components/AboutName'
+import AboutStatistics from '../components/AboutStatistics'
 
 export default function About() {
   return (

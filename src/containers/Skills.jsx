@@ -1,4 +1,4 @@
-import SkillsContainer from '../Components/SkillsContainer'
+import SkillsContainer from '../components/SkillsContainer'
 import HTML5 from '../images/Skills/html-5.svg'
 import CSS3 from '../images/Skills/css3.svg'
 import JAVASCRIPT from '../images/Skills/javascript.svg'

@@ -1,5 +1,5 @@
-import PortfolioContainer from '../Components/PortfolioContainer'
-import PortfolioHeader from '../Components/PortfolioHeader'
+import PortfolioContainer from '../components/PortfolioContainer'
+import PortfolioHeader from '../components/PortfolioHeader'
 
 export default function Portfolio() {
   return (
