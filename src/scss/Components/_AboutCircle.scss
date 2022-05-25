@@ -23,11 +23,11 @@
     object-fit: contain;
   }
 
-  @media (max-width: 900px) {
+  @media (max-width: 56.25em) {
     top: 150px;
   }
 
-  @media (max-width: 760px) {
+  @media (max-width: 47.5em) {
     width: 90vw;
     height: 90vw;
     top: 10vw;

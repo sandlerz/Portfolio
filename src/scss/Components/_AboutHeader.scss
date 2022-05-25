@@ -5,6 +5,14 @@
   font-size: 1.5rem;
   margin-bottom: 6.25rem;
 
+  @media (max-width: 56.25em) {
+    margin-bottom: 1.875rem;
+  }
+
+  @media (max-width: 31.25em) {
+    display: none;
+  }
+
   &__logo {
     display: none;
   }
@@ -44,11 +52,5 @@
         }
       }
     }
-  }
-}
-
-@media (max-width: 900px) {
-  .AboutHeader {
-    margin-bottom: 30px;
   }
 }

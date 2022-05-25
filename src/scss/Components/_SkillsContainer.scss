@@ -7,7 +7,7 @@
   justify-content: space-between;
   border-radius: 1.5625rem;
 
-  @media (max-width: 900px) {
+  @media (max-width: 56.25em) {
     justify-content: center;
   }
 
@@ -15,7 +15,8 @@
     max-width: 3.75rem;
     margin-inline: 2.5rem;
     filter: var(--accented-color-filter);
-    @media (max-width: 900px) {
+
+    @media (max-width: 56.25em) {
       display: none;
     }
   }
@@ -37,7 +38,7 @@
 
       &__name {
         opacity: 0;
-        @media (max-width: 760px) {
+        @media (max-width: 47.5em) {
           opacity: 1;
           font-size: 1.4rem;
         }
