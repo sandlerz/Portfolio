@@ -21,7 +21,13 @@ export default function header() {
         </ul>
       </nav>
       <div className="AboutHeader__talk">
-        <span className="AboutHeader__talk__text">Let's Talk</span>
+        <a
+          href="/cv/Formal Resume Format.pdf"
+          className="AboutHeader__talk__text"
+          download="Sebastian Mesa Cv"
+        >
+          Download CV
+        </a>
         <div className="AboutHeader__talk__img">
           <img src={ArrowIcon} alt="" />
         </div>
