@@ -56,22 +56,24 @@ export default function PortfolioContainer() {
         <span className="PortfolioContainer__item__body__title">
           {project.name}
         </span>
-        <a
-          className="PortfolioContainer__item__body__code"
-          href={project.code}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Code
-        </a>
-        <a
-          className="PortfolioContainer__item__body__site"
-          href={project.site}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Live Site
-        </a>
+        <div className="PortfolioContainer__item__body__link">
+          <a
+            className="PortfolioContainer__item__body__link__code"
+            href={project.code}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Code
+          </a>
+          <a
+            className="PortfolioContainer__item__body__link__site"
+            href={project.site}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Live Site
+          </a>
+        </div>
       </div>
     </div>
   ))

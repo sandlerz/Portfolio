@@ -1,14 +1,25 @@
 .MainPage {
-  padding: 30px 20px;
-  margin-inline: 20px;
-  width: 1440px;
+  padding: 1.875rem 1.25rem;
+  width: 100%;
+  max-width: 90rem;
   position: relative;
+  margin: auto;
+}
+
+@media (max-width: 760px) {
+  html {
+    font-size: 2vw;
+  }
+
+  .MainPage {
+    padding: 4vw 3vw;
+  }
 }
 
 .bg__waves {
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 90%;
   height: 100%;
   z-index: -100;
   opacity: 0.4;
@@ -19,68 +30,83 @@
 }
 
 .about {
-  height: 850px;
+  height: 53.125rem;
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-bottom: 125px;
+  margin-bottom: 7.8125rem;
+  width: 100%;
+
+  @media (max-width: 900px) {
+    height: 70rem;
+  }
+  @media (max-width: 760px) {
+    height: 70rem;
+  }
 }
 
 .Portfolio {
-  margin-bottom: 80px;
+  margin-bottom: 5rem;
 
   &__container {
     width: 100%;
     background-color: var(--element-color);
-    padding: 50px 120px;
-    border-radius: 25px;
+    padding: 3.125rem 7.5rem;
+    border-radius: 1.5625rem;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.625rem;
   }
 }
 
 .Skills {
   flex-direction: column;
-  margin-bottom: 125px;
+  margin-bottom: 7.8125rem;
 
   &__header {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 
   &__container {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 3.75rem;
   }
 }
 
 .Contact {
   width: 100%;
   background-color: var(--element-color);
-  border-radius: 25px;
-  padding: 50px 0;
-  margin-bottom: 50px;
+  border-radius: 1.5625rem;
+  padding: 3.125rem 1.25rem;
+  margin-bottom: 3.125rem;
 
   &__header {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 
   &__body {
-    width: 450px;
+    width: 100%;
     margin: auto;
-    display: grid;
-    grid-template: auto / 450px 2px 450px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    grid-gap: 40px;
+    gap: 2.5rem;
+
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
 
     &__line {
-      width: 100%;
-      height: 300px;
+      width: 2px;
+      height: 18.75rem;
       background-color: var(--gray);
+      @media (max-width: 900px) {
+        width: 30%;
+        height: 2px;
+      }
     }
   }
 }
@@ -88,20 +114,20 @@
 .FindMeOn {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
 
   &__header {
     text-align: center;
   }
 
   &__footer {
-    margin-top: 25px;
+    margin-top: 1.5625rem;
     display: flex;
     flex-direction: column;
     text-align: center;
 
     &__text {
-      font-size: 16px;
+      font-size: 1rem;
 
       &__bold {
         font-weight: var(--font-weight-semiBold);

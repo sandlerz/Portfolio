@@ -1,20 +1,35 @@
 .AboutCircle {
   position: absolute;
-  width: 720px;
-  height: 720px;
+  top: 85px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 45rem;
+  height: 45rem;
   border-radius: 50%;
   background-color: black;
   z-index: -10;
-  transform: translate(50%, 15%);
   overflow: hidden;
-  // box-shadow: 0px 0px 103px 36px rgba(0, 0, 0, 0.65),
-  //   0px 0px 1400px 25px rgba(0, 0, 0, 0.65),
-  //   0px 0px 2400px 800px rgba(0, 0, 0, 0.25);
+  // box-shadow: 0rem 0rem 6.4375rem 2.25rem rgba(0, 0, 0, 0.65),
+  //   0rem 0rem 87.5rem 1.5625rem rgba(0, 0, 0, 0.65),
+  //   0rem 0rem 150rem 50rem rgba(0, 0, 0, 0.25);
   background: linear-gradient(145deg, #1c1d23, #17181e);
-  box-shadow: 30px 30px 62px #0a0b0d, -30px -30px 62px #2a2b35;
+  box-shadow: 1.875rem 1.875rem 3.875rem #0a0b0d,
+    -1.875rem -1.875rem 3.875rem #2a2b35;
 
   img {
     min-width: 100%;
     object-fit: contain;
+  }
+
+  @media (max-width: 900px) {
+    top: 150px;
+  }
+
+  @media (max-width: 760px) {
+    width: 90vw;
+    height: 90vw;
+    top: 10vw;
   }
 }

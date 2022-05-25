@@ -1,34 +1,33 @@
 .AboutHeader {
-  display: grid;
+  display: flex;
   width: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  font-size: 24px;
-  margin-bottom: 100px;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 6.25rem;
 
   &__logo {
-    opacity: 0;
+    display: none;
   }
 
   &__nav-container {
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 2.1875rem;
   }
 
   &__talk {
     font-weight: var(--font-weight-bold);
-    display: flex;
+    // display: flex;
+    display: none;
     justify-content: flex-end;
-    gap: 15px;
-    opacity: 0;
+    gap: 0.9375rem;
 
     &__text {
-      border-bottom: 4px solid var(--accented-color);
+      border-bottom: 0.25rem solid var(--accented-color);
     }
 
     &__img {
-      max-width: 30px;
+      max-width: 1.875rem;
       filter: var(--accented-color-filter);
       animation: 0.5s arrow infinite alternate ease-in;
       position: relative;
@@ -41,9 +40,15 @@
           left: 0;
         }
         to {
-          left: 3px;
+          left: 0.1875rem;
         }
       }
     }
+  }
+}
+
+@media (max-width: 900px) {
+  .AboutHeader {
+    margin-bottom: 30px;
   }
 }
